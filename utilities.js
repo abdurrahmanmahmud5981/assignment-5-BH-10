@@ -2,6 +2,11 @@
  * common shared functions
  */
 
+// getting history element
+const historyCard = document.getElementById("historyData");
+
+// get date
+const date = new Date();
 
 function getInputValueById(id) {
     const inputValue = document.getElementById(id).value;
