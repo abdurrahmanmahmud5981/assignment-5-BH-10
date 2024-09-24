@@ -30,7 +30,7 @@ document.getElementById("btnForFeni").addEventListener("click", (e) => {
       //
       cardForHistory.innerHTML = `
          <h2 class="text-2xl font-bold ">${inputAmountForFeni} tk donated for Pepole of  Feni </h2>
-         <p class="mt-3">${date.toLocaleString()}</p>
+         <p class="mt-3 bg-stone-100 p-3 rounded-lg">${date.toLocaleString()}</p>
         `;
       historyCard.appendChild(cardForHistory);
   

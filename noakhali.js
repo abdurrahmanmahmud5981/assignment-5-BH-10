@@ -30,7 +30,7 @@ document.getElementById("btnForNoakhali").addEventListener("click", (e) => {
       //
       cardForHistory.innerHTML = `
          <h2 class="text-2xl font-bold ">${inputAmountForNoakhali} tk donated for Pepole of  Noakhali </h2>
-         <p class="mt-3">${date.toLocaleString()}</p>
+         <p class="mt-3 bg-stone-100 p-3 rounded-lg">${date.toLocaleString()}</p>
         `;
       historyCard.appendChild(cardForHistory);
   
