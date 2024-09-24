@@ -12,7 +12,8 @@ document.getElementById("btnForFeni").addEventListener("click", (e) => {
       isNaN(inputAmountForFeni)
     ) {
       document.getElementById("inputForNoakhali").value = "";
-      alert("invalid input");
+     // show modal for invalid donation
+     document.getElementById("my_modal_6").showModal();
       return;
     } else {
       const totalInitialAmount =
@@ -29,8 +30,8 @@ document.getElementById("btnForFeni").addEventListener("click", (e) => {
   
       //
       cardForHistory.innerHTML = `
-         <h2 class="text-2xl font-bold ">${inputAmountForFeni} tk donated for Pepole of  Feni </h2>
-         <p class="mt-3 bg-stone-100 p-3 rounded-lg">${date.toLocaleString()}</p>
+         <h2 class="text-2xl font-bold ">${inputAmountForFeni}  ${getInnerText("titleForFeni")} </h2>
+         <p class="mt-3 bg-stone-100 p-3 rounded-lg">$ Date: ${date.toLocaleDateString()} and Time: ${date.toLocaleTimeString()}</p>
         `;
       historyCard.appendChild(cardForHistory);
   
