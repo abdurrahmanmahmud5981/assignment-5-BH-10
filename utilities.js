@@ -10,13 +10,11 @@ const date = new Date();
 
 
 function getInputValueById(id) {
-    const inputValue = document.getElementById(id).value;
-    return parseFloat(inputValue);
+    return parseFloat( document.getElementById(id).value);
 }
 
 function getTextValue (id){
-    const textValue = document.getElementById(id).innerText;
-    return parseFloat(textValue);
+    return parseFloat(document.getElementById(id).innerText);
 }
 
 function getInnerText(id){
