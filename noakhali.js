@@ -1,6 +1,6 @@
 document.getElementById("btnForNoakhali").addEventListener("click", () => {
   /**oparaition for Noakhali   */
-  operation("initialAmount","inputForNoakhali","donatedAmountForNoakhali")
+  operation("initialAmount","inputForNoakhali","donatedAmountForNoakhali","titleForNoakhali")
 
   // /** Validaition  */
   // if (

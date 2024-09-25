@@ -7,7 +7,7 @@
 
 // it's a commont function for operaition
   function operation(
-    initialAmount,inputForDistrict,donatedAmountForDistrict,
+    initialAmount,inputForDistrict,donatedAmountForDistrict,titleForDistrict
   ) {
 
       const converNumber = getInputValueById(inputForDistrict)
@@ -36,7 +36,7 @@
     
         //
         cardForHistory.innerHTML = `
-           <h2 class="text-2xl font-bold ">${converNumber}  ${getInnerText("titleForFeni")} </h2>
+           <h2 class="text-2xl font-bold ">${converNumber}  ${getInnerText(titleForDistrict)} </h2>
            <p class="mt-3 bg-stone-100 p-3 rounded-lg"> Date: ${date.toLocaleDateString()}. <br/> Time: ${date.toLocaleTimeString()}.</p>
           `;
         historyCard.appendChild(cardForHistory);

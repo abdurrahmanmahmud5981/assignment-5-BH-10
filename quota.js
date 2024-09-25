@@ -1,4 +1,4 @@
 document.getElementById("btnForQuota").addEventListener("click", () => {
   /** oparaition for Quota      */
-  operation("initialAmount", "inputForQuota", "donatedAmountForQuota");
+  operation("initialAmount", "inputForQuota", "donatedAmountForQuota","titleForQuota");
 });
