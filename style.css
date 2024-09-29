@@ -3395,6 +3395,9 @@ details.collapse summary::-webkit-details-marker{
 .mt-8{
   margin-top: 2rem;
 }
+.mr-4{
+  margin-right: 1rem;
+}
 .block{
   display: block;
 }
@@ -3706,6 +3709,9 @@ details.collapse summary::-webkit-details-marker{
 }
 .p-8{
   padding: 2rem;
+}
+.p-0{
+  padding: 0px;
 }
 .px-0{
   padding-left: 0px;
